@@ -1,0 +1,38 @@
+/*Navbar*/
+
+.header-container {
+    opacity: 90%;
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    position: relative;
+    z-index: 5;
+}
+
+.navbar {
+    opacity: 80%;   
+    color: #77dd77;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.logo {
+    width: 6%;
+    top: 4px;
+    left: 4px;
+}
+
+.simples, .triples, .combos {
+    text-decoration: none;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+/*Navbar*/

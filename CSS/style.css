@@ -1,0 +1,296 @@
+/*Base*/
+/*Components*/
+* {
+  Margin: 0;
+  Padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.header-container {
+  opacity: 90%;
+  font-weight: bold;
+  color: grey;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  position: relative;
+  z-index: 5;
+}
+
+.navbar {
+  opacity: 80%;
+  color: #77dd77;
+}
+
+.navbar-inner {
+  background: transparent;
+}
+
+.logo {
+  width: 6%;
+  top: 4px;
+  left: 4px;
+}
+
+.simples, .triples, .combos {
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+/*Navbar*/
+/*Portada*/
+.portada {
+  margin-top: 80px;
+  width: 100%;
+  margin-left: 80px;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 90px;
+  color: #77dd77;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.h-3 {
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: gray;
+  z-index: 1;
+}
+
+.my-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 200px;
+  height: 800px;
+}
+
+/*Portada*/
+/*Descripcion*/
+.my-container-2 {
+  margin-top: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 200px;
+}
+
+.gif {
+  width: 100%;
+}
+
+.subtitulo-2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Descripcion*/
+/*Sabores*/
+.sabores {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: white;
+  background-image: url("../Entrega/Imagenes/fondo-main-copia.jpg");
+  background-position: top 35vh, right 35vw;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/*Sabores*/
+/*Materias Primas*/
+.materiasPrimas {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 3px 3px 0 0;
+  background-color: #d1bab5c9;
+}
+
+.my-col {
+  justify-content: center;
+}
+
+.my-container-mp {
+  margin-top: 50px;
+}
+
+.img-1 {
+  width: 50%;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+
+.scale-up-center:hover {
+  -webkit-animation: scale-up-center 0.5s ease-in-out forwards;
+  animation: scale-up-center 0.5s ease-in-out forwards;
+}
+
+.img-2 {
+  width: 50%;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+
+.img-3 {
+  width: 50%;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+
+.img-4 {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.img-5 {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.img-6 {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+/*Materias Primas*/
+/*Footer*/
+.footer {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-style: italic;
+  background-color: #8c8c8c;
+  opacity: 100%;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  width: 3%;
+}
+
+.google-maps {
+  width: 400px;
+  height: 300px;
+  margin: 60px 0px 0px 90px;
+}
+
+.parrafo-1 {
+  margin: 60px 0px 10px 20px;
+  font-size: 22px;
+}
+
+.parrafo-2 {
+  margin: 40px 0px 10px 20px;
+  font-size: 18px;
+}
+
+.instagram {
+  width: 35%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.facebook {
+  width: 35%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/*Keyframes*/
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+}
+/*mediaQueries*/
+/*Queries*/
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+  .logo {
+    position: static;
+    right: auto;
+    top: auto;
+    width: 10%;
+  }
+
+  .navbar-brand {
+    position: static;
+    top: auto;
+    right: auto;
+    left: auto;
+    text-align: left;
+  }
+
+  .my-container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  .subtitulo {
+    padding-top: 20px;
+  }
+
+  .carousel-item, .carousel-slide {
+    width: 100%;
+  }
+
+  .google-maps {
+    width: 5%;
+    height: 5%;
+  }
+
+  .whatsapp {
+    width: 10%;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .subtitulo {
+    padding-top: 20px;
+  }
+}
+/*Queries*/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+/*Queries*/
+
+/*Mobile*/
+@media only screen and (max-width: 400px){
+
+    .logo {
+        position: static;
+        right: auto;
+        top: auto;
+        width: 10%;
+    }
+
+    .navbar-brand{
+        position: static;
+        top: auto;
+        right: auto;
+        left: auto;
+        text-align: left;
+    }
+
+    .my-container {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .subtitulo {
+        padding-top: 20px;
+    }
+
+    .carousel-item, .carousel-slide {
+        width: 100%;
+    }
+
+    .google-maps {
+        width: 5%;
+        height: 5%;
+    }
+
+    .whatsapp {
+        width: 10%;
+    }
+  
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    .subtitulo {
+        padding-top: 20px;
+    }
+
+}
+
+/*Queries*/
