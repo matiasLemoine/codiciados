@@ -1,62 +1,86 @@
-/*Materias Primas*/
+/*Clientes*/
 
-.materiasPrimas {
-    font-size: 48px;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 40px;
-    text-align: center;
-    padding-bottom: 40px;
-    border-radius: 3px 3px 0 0;
-    background-color: #d1bab5c9;
+.frente-clientes {
+    width: 80%;
+    padding-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.my-col {
+.content {
+    height: 900px;
+    position: relative;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #008B8B;
+    background-image: url(../imagenes/bg-pattern-bottom.svg), url(../imagenes/bg-pattern-top.svg);
+    background-position: left 45vw top 55vh, right 55vw bottom 30vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-.my-container-mp {
-    margin-top: 50px;
-}
+.card {
+    height: 25rem;
+    width: 25rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.226);
+ }
+ 
+ .card-top {
+     height: 14rem;
+     background-color: #990000e5;
+     background-size: cover;
+     overflow: hidden;
+ }
+ 
+ .card-middle {
+     height: 12rem;
+     border-bottom: .1rem solid #c0c0c0f3;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .image {
+     border-radius: 50%;
+     border: .6rem solid white;
+     margin-top: -8rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .name {
+     font-weight: 500;
+     font-size: 22px;
+     margin-right: 5px;
+ }
+ 
+ .age { 
+     font-weight: 500;
+     font-size: 22px;
+ }
+ 
+ .city {
+     font-size: 1.5rem;
+     color: black;
+ }
+ 
+ .card-bottom {
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 1rem;
+ }
 
-.img-1 {
-    width: 50%;
-    margin-left: 130px;
-    margin-bottom: 100px;
-}
-
-.scale-up-center:hover {
-	-webkit-animation: scale-up-center 0.5s ease-in-out forwards;
-	        animation: scale-up-center 0.5s ease-in-out forwards;
-}
-
-.img-2 {
-    width: 50%;
-    margin-left: 130px;
-    margin-bottom: 100px;
-}
-
-.img-3 {
-    width: 50%;
-    margin-left: 130px;
-    margin-bottom: 100px;
-}
-
-.img-4 {
-    width: 50%;
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
-
-.img-5 {
-    width: 50%;
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
-
-.img-6 {
-    width: 50%;
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
-
-/*Materias Primas*/
+ .h3-card-b {
+     color: gray;
+     font-size: 20px;
+     font-weight: 100;
+     padding-left: 5px;
+     padding-right: 5px;
+     text-align: center;
+ }
+/*Clientes*/

@@ -1,7 +1,6 @@
 /*Navbar*/
 
 .header-container {
-    opacity: 90%;
     font-weight: bold;
     color: grey;
     text-decoration: none;
@@ -12,12 +11,12 @@
 }
 
 .navbar {
-    opacity: 80%;   
-    color: #77dd77;
+    opacity: 90%;   
+    background-color: white;
 }
 
 .navbar-inner {
-    background:transparent;
+    background:white;
 }
 
 .logo {
