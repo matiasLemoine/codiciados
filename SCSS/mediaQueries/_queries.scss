@@ -1,14 +1,7 @@
 /*Queries*/
 
 /*Mobile*/
-@media only screen and (max-width: 400px){
-
-    .logo {
-        position: static;
-        right: auto;
-        top: auto;
-        width: 10%;
-    }
+@media only screen and (max-width: 500px){
 
     .navbar-brand{
         position: static;
@@ -18,35 +11,220 @@
         text-align: left;
     }
 
-    .my-container {
-        margin-top: 80px;
-        margin-bottom: 30px;
+    .logo {
+        position: static;
+        right: auto;
+        top: auto;
+        width: 10%;
     }
 
     .subtitulo {
-        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    .span {
+        font-size: 54px;
+    }
+
+    .container-portada {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 750px;
+    }
+
+    .portada {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .sabores2 {
+        padding-top: 40px;
+        padding-bottom: 80px;
     }
 
     .carousel-item, .carousel-slide {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .google-maps {
-        width: 5%;
-        height: 5%;
+    .container-descripcion {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .subtitulo-2 {
+        margin-top: 20px;
+    }
+
+    .clientes-section {
+        padding-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .frente-clientes {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        height: 1600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        height: 80%;
+        width: 100%;
+    }
+
+    .card-top {
+        height: 9rem;
+    }
+
+    .card-middle {
+        height: 9rem;
+        margin-top: 10px;
+    }
+
+    .card-bottom {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .image {
+        width: 70%;
+    }
+
+    .name, .age, .city, .h3-card-b {
+        font-size: 20px;
     }
 
     .whatsapp {
         width: 10%;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .facebook, .instagram {
+        width: 8%;
     }
   
 }
 
 /* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
 
     .subtitulo {
         padding-top: 20px;
+    }
+
+    .container-portada {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 800px;
+    }
+
+    .portada {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .span {
+        font-size: 54px;
+        margin-top: 60px;
+    }
+
+    .container-descripcion {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .subtitulo-2 {
+        margin-top: 40px;
+    }
+
+    .clientes-section {
+        padding-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .frente-clientes {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        height: 1600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        height: 80%;
+        width: 60%;
+        margin-left: 140px;
+    }
+
+    .card-top {
+        height: 9rem;
+    }
+
+    .card-middle {
+        height: 9rem;
+        margin-top: 10px;
+    }
+
+    .card-bottom {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .image {
+        width: 70%;
+    }
+
+    .name, .age, .city, .h3-card-b {
+        font-size: 20px;
+    }
+
+    .index-h2, .form {
+        font-size: 20px;
+    }
+
+    .facebook, .instagram {
+        width: 7%;
+    }
+
+    .whatsapp {
+        width: 9%;
+        bottom: 40px;
+        right: 60px;
     }
 
 }
